@@ -2,9 +2,106 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Седона</title>
+    <title>Отели Седоны</title>
 </head>
 <body>
-    <header class="page-header"
+    <header class="page-header">
+        <a href="index.html" class="logo">
+            <img src="#" alt="Лого">
+        </a>
+        <nav class="navigation">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a href="index.html" class="navigation-link">Главная</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="about.html" class="navigation-link">О Седоне</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="catalog.html" class="navigation-link">Гостиницы</a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="navigation">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">
+                        <span class=visually-hidden>Поиск</span>
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">
+                        <span class=visually-hidden>Избранное</span>
+                    </a>
+                </li>
+                <li class="navigation-item">
+                    <a href="#" class="navigation-link">
+                        <button class="header-button">Хочу сюда!</button>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-catalog">
+        <header class="catalog-header">
+            <h1 class="catalog-header-title">Гостиницы Седоны</h1>
+                <ul class="breadcrumbs">
+                    <li class="breadcrumbs-item">
+                        <a class="breadcrumbs-link" href="index.html">
+                            <span class="visually-hidden">Главная</span>
+                        </a>
+                    </li>
+                    <li class="breadcrumbs-item">
+                        <a class="breadcrumbs-link">Гостиницы</a>
+                    </li>
+                </ul>
+        <section class="filters">
+            <h2 class="visually-hidden">Фильтр для поиска гостиницы</h2>
+            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="post">
+                <fieldset class="catalog-filter-group">
+                    <legend class="catalog-filter-title">Инфраструктура:</legend>
+                    <ul class="catalog-filter-list">
+                        <li class="catalo-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="swimming" checked>Бассейн
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="cotrol-input" type="checkbox" name="parking" checked>Парковка
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="wi-fi">Wi-Fi
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="catalog-filter-group">
+                    <legend class="catalog-filter-title">Тип жилья:</legend>
+                    <ul class="catalog-filter-list">
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="radio" name="type-of-housing" value="hotel" checked>Отель
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="cotrol-input" type="radio" name="type-of-housing" value="motel">Мотель
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="radio" name="type-of-housing" value="apartments">Апартаменты
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                
+            </form>
+        </section>        
+        </header>
+    </main>
 </body>
 </html>
