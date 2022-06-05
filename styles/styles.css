@@ -1,0 +1,118 @@
+/*------------------------Fonts------------------------*/
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+
+
+
+
+/*--------------------------Скрыть элементы------------------------*/
+.visually-hidden{
+    visibility: hidden;
+}
+
+/*----------------------------header---------------------------------*/
+
+.page-header{
+    background-color: white;
+    margin-bottom: 0%;
+    
+    
+}
+
+/*-----------------------------Navigation----------------------------*/
+
+.navigation-item {
+    font-family: "PT Sans" sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26x;
+    text-transform: capitalize;
+    text-align: center;
+    
+}
+
+
+
+.navigation-link {
+    color: black;
+    text-decoration: none;
+}
+
+
+/*----------------------------body-------------------------------*/
+
+body {
+    font-family: "PT Sans" sans-serif;
+    background-color: #f2f2f2;
+    color: #000000;
+    width: 1200px;
+    line-height: 24px;
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 0;
+    box-shadow: 0 0 10px black;
+    
+
+}
+
+/*-----------------------------main-----------------------------------*/
+
+.main-index {
+    background-image: url("../images/jpg/index-background.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+
+/*------------------------------button-----------------------------*/
+
+.button {
+    font-family: "PT Sans" sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    background-color: #756157;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+
+/*------------------------------Subscribe---------------------------*/
+.news-background {
+    background-image: url("../images/jpg/background.jpg");
+    background-repeat: no-repeat;
+    
+}
+
+.news-title {
+    position: absolute;
+    font-family: "PT Sans" ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+/*----------------------------Каталог отелей---------------------*/
+.catalog-header {
+    background-image: url("../images/jpg/catalog-background\ 1.jpg");
+}
