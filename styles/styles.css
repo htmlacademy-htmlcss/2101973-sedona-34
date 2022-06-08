@@ -30,16 +30,18 @@ ul {
 /*----------------------------body-------------------------------*/
 
 body {
-    font-family: "PT Sans" sans-serif;
-    background-color: #f2f2f2;
-    color: #000000;
-    width: auto;
-    line-height: 24px;
-    font-size: 18px;
-    margin: auto;
-    padding: 0;
-    box-shadow: 0 0 10px black;
     width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    box-shadow: 0px 0px 15px;
+    background-color: #ffffff;
+    color: #333333;
+    
  }   
 
 
