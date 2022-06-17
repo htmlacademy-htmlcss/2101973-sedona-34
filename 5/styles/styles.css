@@ -1,0 +1,185 @@
+/*------------------------Fonts------------------------*/
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/ptsans-400.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ptsans-700.woff2") format("woff2");
+    font-display: swap;
+}
+
+.visually-hidden {
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    border: 0;
+    padding: 0;
+    margin: -1px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+::before,
+::after {
+    box-sizing: border-box;
+}
+
+html   {
+    height: 100%;
+    background-color: #f2f2f2;
+}
+
+
+.title {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+body {
+    width: 1200px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main-index {
+    flex-grow: 1;
+}
+
+
+button {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    width: 160px;
+    margin: 0;
+    padding: 9px 15px 8px;
+    font: inherit;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: #756157;
+    border-radius: 4px;
+    border: none;
+}
+
+/* Header */
+
+
+.page-header {
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0 auto;
+    
+}
+
+.logo {
+    width: 140px;
+}
+
+
+.navigation {
+    padding: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 890px;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+.navigation-item {
+    font-weight: 700;
+    padding: 0 17px;
+    line-height: 26px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+
+/* Index (welcome) */
+
+.welcome {
+    margin: 0;
+    padding: 50px;
+    background-color: #82B3D3;
+    color: #ffffff;
+    background-image: url("../images/jpg/index-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.image-welcome {
+    display: block;
+    margin: 0 auto;
+}
+
+.welcome-description {
+    width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: #000000;
+    padding: 10px;
+    line-height: 36px;
+}
+
+.intro {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.main-reason {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.secondary-reason {
+    width: 400px;
+    height: 384px;
+    padding: 20px 85px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.reason-image {
+   padding: auto;
+}
